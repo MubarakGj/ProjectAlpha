@@ -30,7 +30,7 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 20px 12% 20px 12%;
+    margin: 20px 14% 20px 14%;
     min-width: 50%;
 }
 
@@ -51,8 +51,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* margin: 100px 200px 100px 200px; */
-    margin: 100px 12% 100px 12%;
+    margin: 100px 14% 100px 14%;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -181,7 +180,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .author {
@@ -197,7 +195,7 @@ button {
 
 .action-section {
     background-color: #3882F6;
-    margin: 100px 12% 100px 12%;
+    margin: 100px 14% 100px 14%;
     display: flex;
     justify-content: center;
     color: white;
@@ -207,7 +205,7 @@ button {
 
 .action-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
@@ -220,6 +218,7 @@ button {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    margin-right: auto;
 }
 
 .action-header {
