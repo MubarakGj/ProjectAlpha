@@ -159,3 +159,35 @@ button {
     font-size: 18px;
     padding: 10px;
 }
+
+/* Quote Section */
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 350px 100px 350px;
+}
+
+.quote {
+    flex: 1;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    flex: 1;
+    font-size: 30px;
+    color: #1F2937;
+    padding-right: 10%;
+    align-self: flex-end;
+}
