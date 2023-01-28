@@ -191,3 +191,52 @@ button {
     padding-right: 10%;
     align-self: flex-end;
 }
+
+/* Action section */
+
+.action-section {
+    background-color: #3882F6;
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 100px 50px 100px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+}
+
+.action-text-container {
+    flex-shrink: 0;
+}
+
+.action-header {
+    font-size: 23px;
+    font-weight: bold;
+    flex: 0;
+}
+
+button.action {
+    min-width: fit-content;
+    border: 2px solid white;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
